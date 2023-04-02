@@ -19,6 +19,23 @@
 
 
 
+## Port Scanning
+
+| Module Path | Description |
+| -------- | -------- | 
+| auxiliary/scanner/http/wordpress_pingback_access   |  Wordpress Pingback Locator |
+| auxiliary/scanner/natpmp/natpmp_portscan           |  NAT-PMP External Port Scanner |
+| auxiliary/scanner/portscan/ack                     |  TCP ACK Firewall Scanner |
+| auxiliary/scanner/portscan/ftpbounce               |  FTP Bounce Port Scanner |
+| auxiliary/scanner/portscan/syn                     |  TCP SYN Port Scanner |
+| auxiliary/scanner/portscan/tcp                     |  TCP Port Scanner |
+| auxiliary/scanner/portscan/xmas                    |  TCP "XMas" Port Scanner |
+| auxiliary/scanner/sap/sap_router_portscanner       |  SAPRouter Port Scanner | 
 
 
+
+
+```
+msf6 > search portscan
+```
 
