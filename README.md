@@ -19,8 +19,10 @@
 
 
 
-## Port Scanning
+## Scanning
 
+
+### Port Scanning
 | Module Path | Description |
 | -------- | -------- | 
 | auxiliary/scanner/http/wordpress_pingback_access   |  Wordpress Pingback Locator |
@@ -38,4 +40,18 @@
 ```
 msf6 > search portscan
 ```
+
+### Service Identification
+| Module Path | Description |
+| -------- | -------- | 
+| auxiliary/scanner/discovery/udp_sweep | Identify services |
+
+### SMB Scanning
+| Module Path | Description |
+| -------- | -------- | 
+| auxiliary/scanner/smb/smb_enumusers           |     SMB User Enumeration (SAM EnumUsers) |
+| auxiliary/scanner/smb/smb_version      |     SMB Version Detection |
+
+
+
 
